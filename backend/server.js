@@ -8,7 +8,7 @@ const aiRoutes=require("./routes/ai")
 const app=express();
 const protect=require("./middleware/auth")
 app.use(cors({
-    origin:["http://localhost:3000","http://localhost:5173"]
+    origin:["http://localhost:3000","http://localhost:5173","https://ai-taskflow-production.up.railway.app"]
 }));
 
 app.use(express.json());
