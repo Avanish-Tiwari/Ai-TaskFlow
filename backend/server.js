@@ -8,7 +8,7 @@ const aiRoutes=require("./routes/ai")
 const app=express();
 const protect=require("./middleware/auth")
 app.use(cors({
-    origin:["http://localhost:3000","http://localhost:5173","https://ai-taskflow-production.up.railway.app"]
+    origin:['http://localhost:3000','http://localhost:5173','https://ai-task-flow-five.vercel.app','https://www.ai-task-flow-five.vercel.app']
 }));
 
 app.use(express.json());
